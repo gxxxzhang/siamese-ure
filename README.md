@@ -47,9 +47,9 @@ Each dataset is a folder under the ```./data``` folder:
 Train the model with:  
 ```
 python main.py \
---data ###(tacred or fewrel) \
 --aug-plus \
 --fix-pred-lr \
 --use-relation-span ./data/tacred/ \
---save_path save_path
+--save_path save_path \
+{ path_to_data } ###(tacred or fewrel)
 ```
