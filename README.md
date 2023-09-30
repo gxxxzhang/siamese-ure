@@ -19,6 +19,10 @@ Packages listed below are required.
 - tqdm
 
 
+## # Data
+* TACRED: The TAC Relation Extraction Dataset ([download](https://catalog.ldc.upenn.edu/LDC2018T24))<br>
+
+
 ## Usage
 Train the model with:  
 ```
