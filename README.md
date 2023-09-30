@@ -21,7 +21,7 @@ Packages listed below are required.
 
 ## # Data
 * TACRED: The TAC Relation Extraction Dataset ([download](https://catalog.ldc.upenn.edu/LDC2018T24))<br>
-
+* NYT+FB: This dataset is not open, You can contact [Diego Marcheggiani].<br>
 
 ## Usage
 Train the model with:  
