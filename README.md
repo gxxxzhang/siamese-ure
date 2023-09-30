@@ -19,9 +19,22 @@ Packages listed below are required.
 - tqdm
 
 
-## # Data
+## Data
 * TACRED: The TAC Relation Extraction Dataset ([download](https://catalog.ldc.upenn.edu/LDC2018T24))<br>
 * NYT+FB: This dataset is not open. You can contact ([Diego Marcheggiani](https://diegma.github.io/)).<br>
+
+### Format
+Each dataset is a folder under the ```./data``` folder:
+```
+./data
+└── Tacred
+    ├── train_sentence.json
+    ├── train_label_id.json
+    ├── dev_sentence.json
+    ├── dev_label_id.json
+    ├── test_sentence.json
+    └── test_label_id.json
+```
 
 ## Usage
 Train the model with:  
