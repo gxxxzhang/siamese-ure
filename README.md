@@ -18,4 +18,9 @@ Packages listed below are required.
 - scikit_learn==0.24.1
 - tqdm
 
-It is also possible to setup the environment by `pip install -r requirements.txt`.
+
+## Usage
+Train the model with:  
+```
+python main.py --dataset ###(tacred or fewrel) --aug-plus --fix-pred-lr --use-relation-span ./data/tacred/ --save_path save_path
+```
