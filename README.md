@@ -22,5 +22,10 @@ Packages listed below are required.
 ## Usage
 Train the model with:  
 ```
-python main.py --dataset ###(tacred or fewrel) --aug-plus --fix-pred-lr --use-relation-span ./data/tacred/ --save_path save_path
+python main.py \
+--dataset ###(tacred or fewrel) \
+ --aug-plus \
+--fix-pred-lr \
+--use-relation-span ./data/tacred/ \
+--save_path save_path
 ```
