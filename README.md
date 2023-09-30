@@ -27,7 +27,14 @@ Packages listed below are required.
 Each dataset is a folder under the ```./data``` folder:
 ```
 ./data
-└── Tacred
+└── nyt+fb
+    ├── train_sentence.json
+    ├── train_label_id.json
+    ├── dev_sentence.json
+    ├── dev_label_id.json
+    ├── test_sentence.json
+    └── test_label_id.json
+└── tacred
     ├── train_sentence.json
     ├── train_label_id.json
     ├── dev_sentence.json
@@ -40,7 +47,7 @@ Each dataset is a folder under the ```./data``` folder:
 Train the model with:  
 ```
 python main.py \
---dataset ###(tacred or fewrel) \
+--data ###(tacred or fewrel) \
 --aug-plus \
 --fix-pred-lr \
 --use-relation-span ./data/tacred/ \
