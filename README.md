@@ -21,14 +21,14 @@ Packages listed below are required.
 
 ## # Data
 * TACRED: The TAC Relation Extraction Dataset ([download](https://catalog.ldc.upenn.edu/LDC2018T24))<br>
-* NYT+FB: This dataset is not open, You can contact [Diego Marcheggiani].<br>
+* NYT+FB: This dataset is not open, You can contact ([Diego Marcheggiani](diego.marcheggiani@gmail.com)).<br>
 
 ## Usage
 Train the model with:  
 ```
 python main.py \
 --dataset ###(tacred or fewrel) \
- --aug-plus \
+--aug-plus \
 --fix-pred-lr \
 --use-relation-span ./data/tacred/ \
 --save_path save_path
