@@ -49,7 +49,7 @@ Train the model with:
 python main.py \
 --aug-plus \
 --fix-pred-lr \
---use-relation-span ./data/tacred/ \
+--use-relation-span \
 --save_path save_path \
 { path_to_data } ###(tacred or fewrel)
 ```
