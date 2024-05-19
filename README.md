@@ -51,5 +51,5 @@ python main.py \
 --fix-pred-lr \
 --use-relation-span \
 --save_path save_path \
-{ path_to_data } ###(tacred or fewrel)
+{ path_to_data } ###(tacred or nyt+fb)
 ```
